@@ -19,11 +19,13 @@ html {
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
-    font-size: 62.5%/* 10px - "pulo do gato" - tamanho padrão, se eu quiser 16px 
-    é só colocar font-size: 2.8rem*/
+    font-size: 62.5%;
+    /*** 10px - "pulo do gato" - tamanho padrão, se eu quiser 16px 
+    é só colocar font-size: 2.8rem */
 }
 
 body {
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
@@ -32,7 +34,8 @@ body,
 button,
 input,
 textarea {
-    /* intervalo de tamanho - menor tamanho possível é 14px , padrão é 1.6rem(16px), para 
+    /* intervalo de tamanho - menor tamanho possível é 14px, 
+    padrão é 1.6rem(16px), para 
     monitores ou tv's grandes usar 2vw para proporção*/
     font-size: clamp(14px, 1.6rem, 2vw);
     font-family: 'Open Sans', sans-serif;
