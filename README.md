@@ -1,6 +1,6 @@
 # \<nlw/\>together - [Rocketseat](https://rocketseat.com.br/)
 
-## Trilha Discover 
+## Trilha Discover
 
 - Educadora Rocketseat: Jakelyne Gracielly
 
