@@ -12,8 +12,8 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-material">Material</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Guia de estudos e organização">Guia de estudos e organização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-memo-licença">Licença</a>
+  <a href="#%EF%B8%8F-guia-de-estudos-e-organiza%C3%A7%C3%A3o">Guia de estudos e organização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -32,7 +32,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Express
 - SQLite
 
-
 ## 💻 Projeto
 
 O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
@@ -44,8 +43,6 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## 📓 Material
 
 Material para as aulas e configuração do ambiente no [Notion](https://www.notion.so/NLW6-Trilha-Discovery-3b4aa6b99e5741b6be1279b31100237c)
-
-
 
 ## 🗂️ Guia de estudos e organização
 
