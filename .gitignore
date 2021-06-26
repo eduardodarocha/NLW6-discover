@@ -10,6 +10,7 @@
 *.mdb
 *.pdb
 *.sqlite3
+*.sqlite
 
 ### Node ###
 # Logs

@@ -12,7 +12,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-material">Material</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-aplicação">Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-guia-de-estudos-e-organiza%C3%A7%C3%A3o">Guia de estudos e organização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
@@ -37,6 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
+O deploy no Heroku do projeto pode ser visto [aqui rocketq-nlw6](https://rocketq-nlw6.herokuapp.com/)
 
 ## 🔖 Layout
 
@@ -46,11 +47,15 @@ Você pode visualizar o layout do projeto no Figma através [desse link](https:/
 
 Material para as aulas e configuração do ambiente do projeto no [Notion](https://www.notion.so/NLW6-Trilha-Discovery-3b4aa6b99e5741b6be1279b31100237c)
 
-## ♻️ Aplicação
+## ♻️ Instalação
 ### Como clonar e rodar a aplicação localmente
+
 Criar um diretório e entrar nele:
-- `Clonar: git clone https://github.com/eduardodarocha/nlw-06-discover.git`
-- Apagar o diretório "node_module" (baixei no github para fazer o deploy no git pages  ) e os arquivos "package.json" e "package-lock.json" que serão recriados posteriormente.
+
+- Clonar o repositório: 
+  - `git clone https://github.com/eduardodarocha/nlw-06-discover.git`
+
+- Deletar os arquivos "package.json" e "package-lock.json"
 - Inicializar o projeto:
   - `npm init -y`
 - Instalar as dependências:
