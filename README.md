@@ -40,15 +40,14 @@ O Rocket.Q é uma aplicação de interação através de perguntas, sendo possí
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/vw2MQCdI7lVKzLP9y2F7ji/Roquet.q). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto no Figma através [desse link](https://www.figma.com/file/vw2MQCdI7lVKzLP9y2F7ji/Roquet.q). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## 📓 Material
 
-Material para as aulas e configuração do ambiente no [Notion](https://www.notion.so/NLW6-Trilha-Discovery-3b4aa6b99e5741b6be1279b31100237c)
+Material para as aulas e configuração do ambiente do projeto no [Notion](https://www.notion.so/NLW6-Trilha-Discovery-3b4aa6b99e5741b6be1279b31100237c)
 
-## Aplicação
-### Como clonar e rodar a aplicação de modo local
-
+## ♻️ Aplicação
+### Como clonar e rodar a aplicação localmente
 Criar um diretório e entrar nele:
 - `Clonar: git clone https://github.com/eduardodarocha/nlw-06-discover.git`
 - Apagar o diretório "node_module" (baixei no github para fazer o deploy no git pages  ) e os arquivos "package.json" e "package-lock.json" que serão recriados posteriormente.
