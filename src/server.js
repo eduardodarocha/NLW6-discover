@@ -13,5 +13,6 @@ server.set('views', path.join(__dirname, 'views'))
 server.use(express.urlencoded({extended: true}))
 
 server.use(route)
+var porta = process.env.PORT || 3000;
 
-server.listen(3000, () => console.log("Server started..."))
+server.listen(porta, () => console.log("Server started at port: " + porta))
