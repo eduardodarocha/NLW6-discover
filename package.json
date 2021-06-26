@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
   "main": "src/server.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "scripts": {
-    "start": "src/server.js",
-    "init-db": "node ./src/db/init.js"
+    "start": "node src/server.js",
+    "init-db": "node src/db/init.js"
   },
   "repository": {
     "type": "git",
