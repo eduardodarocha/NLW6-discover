@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
-O deploy no Heroku do projeto pode ser visto [aqui rocketq-nlw6](https://rocketq-nlw6.herokuapp.com/)
+O deploy no Heroku do projeto pode ser visto aqui: <https://rocketq-nlw6.herokuapp.com/>
 
 ## 🔖 Layout
 
@@ -50,31 +50,36 @@ Material para as aulas e configuração do ambiente do projeto no [Notion](https
 ## ♻️ Instalação
 ### Como clonar e rodar a aplicação localmente
 
-Criar um diretório e entrar nele:
-
 - Clonar o repositório: 
-  - `git clone https://github.com/eduardodarocha/nlw-06-discover.git`
+  - `git clone https://github.com/eduardodarocha/nlw-06-discover.git` 
 
-- Deletar os arquivos "package.json" e "package-lock.json"
+- Entrar no diretório "nlw-06-discover"
+
+- Deletar os arquivos "package.json", "package-lock.json" e src/db/rocketq.sqlite
+  
 - Inicializar o projeto:
   - `npm init -y`
+  
 - Instalar as dependências:
   - `npm install express`
   - `npm install ejs`
   - `npm instal sqlite`
   - `npm instal sqlite3`
+  
 - Modificar o package.json: 
-  - "main": "src/server.js",
+  - `"main": "src/server.js",`
   - `"scripts": {
     "start": "node src/server.js",
     "init-db": "node src/db/init.js"
   },`
+
 - Inicializar o banco de dados:
     - `npm run init-db`
 - Rodar a aplicação:
   - `npm start`
+  
 - Abrir o browser com endereço:
-  <localhost:3000> ou <127.0.0.1:3000>
+  <http://localhost:3000> ou <http://127.0.0.1:3000>
 
 
 ## 🗂️ Guia de estudos e organização
