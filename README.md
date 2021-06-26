@@ -12,6 +12,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-material">Material</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aplicação">Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-guia-de-estudos-e-organiza%C3%A7%C3%A3o">Guia de estudos e organização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
@@ -44,6 +45,33 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 ## 📓 Material
 
 Material para as aulas e configuração do ambiente no [Notion](https://www.notion.so/NLW6-Trilha-Discovery-3b4aa6b99e5741b6be1279b31100237c)
+
+## Aplicação
+### Como clonar e rodar a aplicação de modo local
+
+Criar um diretório e entrar nele:
+- `Clonar: git clone https://github.com/eduardodarocha/nlw-06-discover.git`
+- Apagar o diretório "node_module" (baixei no github para fazer o deploy no git pages  ) e os arquivos "package.json" e "package-lock.json" que serão recriados posteriormente.
+- Inicializar o projeto:
+  - `npm init -y`
+- Instalar as dependências:
+  - `npm install express`
+  - `npm install ejs`
+  - `npm instal sqlite`
+  - `npm instal sqlite3`
+- Modificar o package.json: 
+  - "main": "src/server.js",
+  - `"scripts": {
+    "start": "node src/server.js",
+    "init-db": "node src/db/init.js"
+  },`
+- Inicializar o banco de dados:
+    - `npm run init-db`
+- Rodar a aplicação:
+  - `npm start`
+- Abrir o browser com endereço:
+  <localhost:3000> ou <127.0.0.1:3000>
+
 
 ## 🗂️ Guia de estudos e organização
 
